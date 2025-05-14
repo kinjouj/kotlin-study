@@ -3,7 +3,7 @@
 class Main {
     companion object {
         @JvmStatic
-        fun main(args: Array<String>) {
+        fun main(vararg args: String) {
             println(Greeting().greet())
         }
     }
